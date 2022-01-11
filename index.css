@@ -309,7 +309,7 @@ header{
     width: 20%;
     color: grey;
     position: relative;
-    left: -320px;
+    left: -200px;
     top: 4px;
     height: 100%;
     display: flex;
@@ -331,22 +331,9 @@ header{
     cursor: pointer;
 }
 
-/*
-.card .adcard{
-    height: 100%;
-    width: 20%;
-    padding: 0.2em;
+.row .Adcard img{
     cursor: pointer;
-    position: relative;
 }
-.card .adcard img{
-    height: 100%;
-    width: 70%;
-    position: absolute;
-    left:1000px;
-    top:-222px;
-}
-*/
 
 .row{
     width: 100%;
@@ -368,7 +355,7 @@ header{
 }
 
 .product-column img:hover{
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
 .product-column h4,h5,h6{
