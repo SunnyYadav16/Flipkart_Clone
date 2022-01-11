@@ -275,6 +275,14 @@ header{
 
 /* MAIN SECTION STARTS */
 /* DEALS OF THE DAY COLUMN */
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+    min-height: 190px;
+}
+
 .card{
     box-shadow: 0px 0px 5px 1px rgb(191,191,191);
     padding: 10px 0px;
@@ -315,7 +323,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: left;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .section-heading-right button{
@@ -335,14 +343,6 @@ header{
     cursor: pointer;
 }
 
-.row{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 10px 0px;
-    min-height: 190px;
-}
-
 .product-column{
     text-align: center;
     line-height: 22px;
@@ -355,7 +355,7 @@ header{
 }
 
 .product-column img:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .product-column h4,h5,h6{
