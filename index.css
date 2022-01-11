@@ -226,6 +226,52 @@ header{
     padding: 8px;
 }
 
+/*.banner{
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.slider{
+    display: flex;
+    width: 4047px;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 15s;
+}
+
+.slider img{
+    width: 100%;
+}
+@keyframes slide{
+    0%{
+        left:0px;
+    }
+    26.66%{
+        left: 0px;
+    }
+    33.33%{
+        left: -1349px;
+    }
+    60%{
+        left: -1349px;
+    }
+    66.66%{
+        left: -2698px;
+    }
+    93.33%{
+        left: -2698px;
+    }
+    100%{
+        left: -4047px;
+    }
+}
+*/
+
+/* BANNER SECTION ENDS */
+
+
+
 
 /* MAIN SECTION STARTS */
 /* DEALS OF THE DAY COLUMN */
@@ -296,8 +342,6 @@ header{
 .row .Adcard img{
     cursor: pointer;
 }
-
-
 
 .product-column{
     text-align: center;
