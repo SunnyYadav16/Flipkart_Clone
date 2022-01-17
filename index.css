@@ -1,3 +1,8 @@
+/* Using Star Selector here to select all the elements within the page. */
+
+/* Setting the display fonts as Roboto. 
+   In case it is not available or supported 
+   by the browser set the font to sans-serif */
 *{
     margin: 0%;
     padding: 0%;
@@ -5,7 +10,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* HEADER SECTION STARTS*/
+
+/* HEADER SECTION STARTS - This part is used to style the header section of the page. */
+
+/* Justify-content is used to align the
+   flexible container's items when the 
+   items does not use all the avilable 
+   space on the main axis. */
 header{
     width: 100%;
     height: 60px;
@@ -24,6 +35,8 @@ header{
     cursor: pointer;
 }
 
+/* The font-weight property sets how thick
+   or thin characters in text should be displayed. */
 .left-header a{
     font-size: 20px;
     color: white;
@@ -140,10 +153,12 @@ header{
 .fa-sort-down{
     padding-left: 1px;
 }
-/* HEADER SECTION ENDS*/
+
+/* HEADER SECTION ENDS */
 
 
-/* TOP SECTION STARTS */
+
+/* TOP SECTION STARTS - This part is used to style the categories section on the page. */
 .product-category-row{
     width: 100%;
     height: auto;
@@ -153,6 +168,8 @@ header{
     text-align: center;
 }
 
+/* cursor property changes the mouse pointer 
+   that is displayed while pointing over any element. */
 .product-category-columns{
     cursor: pointer;
     padding: 10px;
@@ -170,7 +187,8 @@ header{
 /* TOP SECTION ENDS */
 
 
-/* BANNER SECTION STARTS */
+
+/* BANNER SECTION STARTS - This part is used to style the carousel section of the webpage. */
 .carousel_item{
     margin: auto;
     max-width: 1608px;
@@ -226,55 +244,15 @@ header{
     padding: 8px;
 }
 
-/*.banner{
-    width: 100%;
-    padding: 10px;
-    overflow: hidden;
-}
-
-.slider{
-    display: flex;
-    width: 4047px;
-    position: relative;
-    animation-name: slide;
-    animation-duration: 15s;
-}
-
-.slider img{
-    width: 100%;
-}
-@keyframes slide{
-    0%{
-        left:0px;
-    }
-    26.66%{
-        left: 0px;
-    }
-    33.33%{
-        left: -1349px;
-    }
-    60%{
-        left: -1349px;
-    }
-    66.66%{
-        left: -2698px;
-    }
-    93.33%{
-        left: -2698px;
-    }
-    100%{
-        left: -4047px;
-    }
-}
-*/
-
 /* BANNER SECTION ENDS */
 
 
 
 
-/* MAIN SECTION STARTS */
-/* DEALS OF THE DAY COLUMN */
+/* MAIN SECTION STARTS - This part is used to style the main content on the webpage*/
+
+/* DEALS OF THE DAY COLUMN - The first card in the main section that
+   offers various discounted deals of the day. */
 .row{
     width: 100%;
     display: flex;
@@ -354,6 +332,10 @@ header{
     transition: 300ms;
 }
 
+/* Using transform property we can scale, rotate, 
+   skew or move, etc the elements. Here setting the
+   value as 0.9 means to shrink the element by this
+   amount. */
 .product-column img:hover{
     transform: scale(0.9);
 }
@@ -381,28 +363,32 @@ header{
     font-weight: 100;
 }
 
-/* BOOKS AND MUSIC COLUMN */
+/* BOOKS AND MUSIC COLUMN - The second card in the main section that
+   offers various discounted deals on Books and Musical Instruments.*/
 .column-music img{
     width: 125px;
     height: 150px;
 }
 
-/* CLOTHING COLUMN */
+/* CLOTHING COLUMN - The first card in the main section that
+   offers various discounted deals on Clothing.*/
 .column-clothing img{
     width: 125px;
     height: 150px;
 }
 
-/* ELECTRONICS COLUMN */
+/* ELECTRONICS COLUMN - The first card in the main section that
+   offers various discounted deals on Electronics.*/
 .column-electronics img{
     width: 100px;
     height: 150px;
 }
+
 /* MAIN SECTION ENDS HERE */
 
 
 
-/* FOOTER */
+/* FOOTER - This part is used to style the last section on the webpage*/
 footer{
     background-color: #172337;
     height: 332;
