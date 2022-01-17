@@ -1,9 +1,10 @@
-<!--Flipkart Project-->
+<!-- Creating a Flipkart Home Page using HTML and CSS -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Flipkart Home Page</title>
+    
     <!-- To set the icon in the title tab of the browser -->
     <link rel="icon" href="/images/Flipkart.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,13 +14,15 @@
 
     <!-- Linking CSS to the html file -->
     <link rel="stylesheet" href="index.css" type="text/css">
+    
     <!-- To add symbols to the page -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
 </head>
+
+
 <body>
 
-<!-- HEADER SECTION STARTS -->
+<!-- HEADER SECTION STARTS - The header section includes the flipkart logo, search bar, login and cart button and more dropdown. -->
 <header>
     <div class="left-header">
         <a href="#">Flipkart</a>
@@ -39,41 +42,49 @@
 <!-- HEADER SECTION ENDS -->
 
 
-<!-- TOP SECTION STARTS -->
+<!-- TOP SECTION STARTS - The top section includes various categories such as Mobiles, Groceries, Travel, etc. available on the website. -->
 <section>
     <div class="product-category-row">
         <div class="product-category-columns">
             <img src="images/Category/Top-offers.png" alt="Top-offers">
             <h4>Top Offers</h4>
         </div>
+        
         <div class="product-category-columns">
             <img src="images/Category/Grocery.png" alt="Grocery">
             <h4>Grocery</h4>
         </div>
+        
         <div class="product-category-columns">
             <img src="images/Category/Mobiles.png" alt="Mobiles">
             <h4>Mobiles</h4>
         </div>
+        
         <div class="product-category-columns">
             <img src="images/Category/Fashion.png" alt="Fashion">
             <h4>Fashion <i class="fas fa-angle-down"></i></h4>
         </div>
+        
         <div class="product-category-columns">
             <img src="images/Category/Electronics.png" alt="Electronics">
             <h4>Electronics <i class="fas fa-angle-down"></i></h4>
         </div>
+        
         <div class="product-category-columns">
             <img src="images/Category/Home.jpg" alt="Home">
             <h4>Home <i class="fas fa-angle-down"></i></h4>
         </div>
+        
         <div class="product-category-columns">
             <img src="images/Category/Appliances.png" alt="Appliances">
             <h4>Appliances <i class="fas fa-angle-down"></i></h4>
         </div>
+        
         <div class="product-category-columns">
             <img src="images/Category/Travel.png" alt="Travel">
             <h4>Travel</h4>
         </div>
+        
         <div class="product-category-columns">
             <img src="images/Category/Beauty,Toys&more.png" alt="Beauty, Toys & More">
             <h4>Beauty, Toys & More <i class="fas fa-angle-down"></i></h4>
@@ -83,7 +94,7 @@
 <!-- TOP SECTION ENDS -->
 
 
-<!-- SLIDING BANNER STARTS -->
+<!-- SLIDING BANNER STARTS - This section is used to create a carousel or to add a sliding image to the website. -->
 <div class="carousel_item flex">
     <div class="prev_btn nav_button">
         <div class="carousel_btn flex">
@@ -99,28 +110,21 @@
         <img src="images/Banner_4.jpg" alt="Banner" class="carousel_image">
     </div>
 </div>
-
-<!--<section>-->
-<!--    <div class="banner">-->
-<!--        <div class="slider">-->
-<!--            <img src="images/Banner_1.jpg" alt="Banner1">-->
-<!--            <img src="images/Banner_2.jpg" alt="Banner2">-->
-<!--            <img src="images/Banner_3.jpg" alt="Banner3">-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
 <!-- SLIDING BANNER ENDS -->
 
 
-<!-- MAIN SECTION STARTS-->
+<!-- MAIN SECTION STARTS - This is the main section of the website that includes different products according to their category. -->
 <section>
-    <!-- DEALS OF THE DAY -->
+    
+    <!-- DEALS OF THE DAY SECTION - Display the most discounted deals on the website. -->
     <div class="row">
         <div class="card">
             <div class="section-heading">
                 <div class="section-heading-left">
                     <h1>Deals of the Day</h1>
                 </div>
+                
+                <!-- Here &nbsp is used so that the words will stick together and not break into a new line. -->
                 <div class="time">
                     <i class="far fa-clock"></i> <h4>&nbsp; 18 : 07 : 36 Left</h4>
                 </div>
@@ -132,60 +136,56 @@
             <div class="row">
                 <div class="product-column">
                     <img src="images/Deals_of_the_Day/watch.jpg" alt="Watch">
-                    <h4>Casio, Fastrack, Sonata</h4>
+                    <h4> Casio, Fastrack, Sonata </h4>
                     <h5> Upto 80% + Extra 10% off </h5>
                     <h6>Knockout Deals!</h6>
                 </div>
+                
                 <div class="product-column">
                     <img src="images/Deals_of_the_Day/temple.jpeg" alt="Temple">
                     <h4> Home Temples & more</h4>
                     <h5> Extra 10% off </h5>
                     <h6> Space Saving Furniture </h6>
                 </div>
+                
                 <div class="product-column">
                     <img src="images/Deals_of_the_Day/tablet_cases.jpg" alt="Tablet Cases">
-                    <h4>Premium Tablet Cases</h4>
+                    <h4> Premium Tablet Cases </h4>
                     <h5> Extra 10% off </h5>
                     <h6> For All Top Models </h6>
                 </div>
+                
                 <div class="product-column">
                     <img src="images/Deals_of_the_Day/home_decor.jpeg" alt="Home Decor">
                     <h4> Best of Home Decor </h4>
                     <h5> From <i class="fas fa-rupee-sign"></i>79 </h5>
                     <h6>Knockout Deals!</h6>
                 </div>
+                
                 <div class="product-column">
                     <img src="images/Deals_of_the_Day/hoodies.jpeg" alt="Hoodies">
                     <h4> Metronaut, Provogue & more</h4>
                     <h5> From <i class="fas fa-rupee-sign"></i>249 + Extra 10% off </h5>
                     <h6> Jackets, Dresses & More</h6>
                 </div>
+                
                 <div class="product-column">
                     <img src="images/Deals_of_the_Day/mobile_phone.jpeg" alt="Mobile">
                     <h4> Oppo A15 </h4>
                     <h5> Flat <i class="fas fa-rupee-sign"></i>1000 off </h5>
                     <h6> Now <i class="fas fa-rupee-sign"></i>6999 </h6>
                 </div>
-    <!--            <div class="product-column">-->
-    <!--                <img src="images/Deals_of_the_Day/headphones.jpg" alt="Headphone">-->
-    <!--                <h3> Sony, Motorolla, Samsung & .... </h3>-->
-    <!--                <h4> Upto 60% </h4>-->
-    <!--                <h6> Starting from <i class="fas fa-rupee-sign"></i>799 </h6>-->
-    <!--            </div>-->
-    <!--            <div class="product-column">-->
-    <!--                <img src="images/Deals_of_the_Day/sarees.jpg" alt="Sarees">-->
-    <!--                <h3> Printed, Designer & more...</h3>-->
-    <!--                <h4> Min 60% off </h4>-->
-    <!--                <h6> Latest Saree Collection! </h6>-->
-    <!--            </div>-->
             </div>
         </div>
+        
+        <!-- Creating a new card in the same row to display an advertisement image into its available space. -->
         <div class="card Adcard">
             <img src="images/Ads.jpg" alt="Advertisement" style="width: 260px; height: 350px;">
         </div>
     </div>
 
-    <!-- BOOKS AND MUSIC INSTRUMENTS -->
+    
+    <!-- BOOKS AND MUSICAL INSTRUMENTS SECTION - To display different books and musical instruments available on the website. -->
     <div class="card">
         <div class="section-heading">
             <div class="section-heading-left">
@@ -204,64 +204,46 @@
                 <h5> Upto 40% off </h5>
                 <h6> Knockout Deals! </h6>
             </div>
-<!--            <div class="product-column column-music">-->
-<!--                <img src="images/Books_and_music/acoustic_guitar.jpeg" alt="Acoustic Guitar">-->
-<!--                <h3> <strong>Acoustic Guitar! </strong> </h3>-->
-<!--                <h4> Min 30% off </h4>-->
-<!--                <h6> Explore Now! </h6>-->
-<!--            </div>-->
+            
             <div class="product-column column-music">
                 <img src="images/Books_and_music/electric_guitar.jpeg" alt="Electric Guitar">
                 <h4> <strong> Electric Guitar </strong> </h4>
                 <h5> Upto 45% off </h5>
                 <h6> <i class="fas fa-rupee-sign"></i>7999  <del>9999</del> </h6>
             </div>
+            
             <div class="product-column column-music">
                 <img src="images/Books_and_music/flute.jpeg" alt="Flute">
                 <h4> <strong> Flute! </strong> </h4>
                 <h5> Upto 60% off </h5>
                 <h6> Explore Now! </h6>
             </div>
+            
             <div class="product-column column-music">
                 <img src="images/Books_and_music/Harmonica.jpg" alt="Harmonica">
                 <h4> <strong> Popular Wind Instruments! </strong></h4>
                 <h5> Under <i class="fas fa-rupee-sign"></i>599 </h5>
                 <h6> Mouth Organ, Harmonica & More </h6>
             </div>
+            
             <div class="product-column column-music">
                 <img src="images/Books_and_music/keyboard.jpeg" alt="Keyboard">
                 <h4> <strong> Keyboard! </strong> </h4>
                 <h5> Upto 50% off </h5>
                 <h6> Explore Now! </h6>
             </div>
+            
             <div class="product-column column-music">
                 <img src="images/Books_and_music/Piano.jpg" alt="Piano">
                 <h4> Sony, Motorolla, Samsung & .... </h4>
                 <h5> Upto 60% </h5>
                 <h6> Starting from <i class="fas fa-rupee-sign"></i>799 </h6>
             </div>
-<!--            <div class="product-column column-music">-->
-<!--                <img src="images/Books_and_music/saxophone.jpg" alt="Saxophone">-->
-<!--                <h3> <strong> Saxophone </strong> </h3>-->
-<!--                <h4> Min 60% off </h4>-->
-<!--                <h6> Shop Now! </h6>-->
-<!--            </div>-->
-<!--            <div class="product-column column-music">-->
-<!--                <img src="images/Books_and_music/middle_east_music.jpg" alt="Middle East Music">-->
-<!--                <h3> <strong> Musical Accessories ... </strong> </h3>-->
-<!--                <h4> Upto 20% off </h4>-->
-<!--                <h6> Shop Now! </h6>-->
-<!--            </div>-->
-<!--            <div class="product-column column-music">-->
-<!--                <img src="images/Books_and_music/accessories.jpeg" alt="Accessories">-->
-<!--                <h3> <strong> Musical Notes! </strong> </h3>-->
-<!--                <h4> Min 60% off </h4>-->
-<!--                <h6> Explore Now! </h6>-->
-<!--            </div>-->
         </div>
     </div>
 
-    <!-- Clothing -->
+    
+    <!-- CLOTHING SECTION - To display different clothing apparels (Men/Women) available on the website.-->
     <div class="card">
         <div class="section-heading">
             <div class="section-heading-left">
@@ -280,60 +262,42 @@
                 <h5> Upto 40% off </h5>
                 <h6> Knockout Deals! </h6>
             </div>
+            
             <div class="product-column column-clothing">
                 <img src="images/Clothing/Women_Maroon_Poly_Crepe_Trousers.jpeg" alt="Trousers">
                 <h4> <strong> Women's Trousers </strong> </h4>
                 <h5> Min 30% off </h5>
                 <h6> Explore Now! </h6>
             </div>
-<!--            <div class="product-column column-clothing">-->
-<!--                <img src="images/Clothing/Regular_Grey_Shorts.jpeg" alt="Shorts">-->
-<!--                <h3> <strong> Men's Regular Shorts </strong> </h3>-->
-<!--                <h4> Upto 45% off </h4>-->
-<!--                <h6> <i class="fas fa-rupee-sign"></i>799 </h6>-->
-<!--            </div>-->
+            
             <div class="product-column column-clothing">
                 <img src="images/Clothing/round_neck_full_sleves.jpeg" alt="FullSleves">
                 <h4> <strong> Men's RoundNeck Full Sleves  </strong> </h4>
                 <h5> Upto 60% off </h5>
                 <h6> Explore Now! </h6>
             </div>
+            
             <div class="product-column column-clothing">
                 <img src="images/Clothing/Semi_Stitched_Lehenga_Choli.jpeg" alt="LehengaCholi">
                 <h4> <strong> Women's Lehenga Choli! </strong></h4>
                 <h5> Under <i class="fas fa-rupee-sign"></i>1999 </h5>
                 <h6> Shop Now! </h6>
             </div>
-<!--            <div class="product-column column-clothing">-->
-<!--                <img src="images/Clothing/SlimFit_Collar_Shirt.jpeg" alt="CollarShirt">-->
-<!--                <h3> <strong> Slimfit Collar Shirts for Men </strong> </h3>-->
-<!--                <h4> Upto 50% off </h4>-->
-<!--                <h6> Explore Now! </h6>-->
-<!--            </div>-->
+            
             <div class="product-column column-clothing">
                 <img src="images/Clothing/Solid_Formal_Shirt.jpeg" alt="FormalShirt">
                 <h4> Formal Shirts for Men </h4>
                 <h5> Upto 60% off</h5>
                 <h6> Starting from <i class="fas fa-rupee-sign"></i>599 </h6>
             </div>
-<!--            <div class="product-column column-clothing">-->
-<!--                <img src="images/Clothing/Stitched_Flared_A-line_Gown.jpeg" alt="Gowns">-->
-<!--                <h3> <strong> Women's Gowns </strong> </h3>-->
-<!--                <h4> Min 60% off </h4>-->
-<!--                <h6> Shop Now! </h6>-->
-<!--            </div>-->
+            
             <div class="product-column column-clothing">
                 <img src="images/Clothing/Stitched_Lehenga_Choli.jpeg" alt="LehengaCholi">
                 <h4> <strong> Women's Designer Lehenga Choli </strong> </h4>
                 <h5> Upto 20% off </h5>
                 <h6> Shop Now! </h6>
             </div>
-<!--            <div class="product-column column-clothing">-->
-<!--                <img src="images/Clothing/Striped_polo_tshirt.jpeg" alt="tShirt">-->
-<!--                <h3> <strong> Polo Tshirts for Men </strong> </h3>-->
-<!--                <h4> Min 60% off </h4>-->
-<!--                <h6> Explore Now! </h6>-->
-<!--            </div>-->
+            
             <div class="product-column column-clothing">
                 <img src="images/Clothing/Women_Brown_Cambric_Trousers.jpeg" alt="Trousers">
                 <h4> <strong> Trousers for Women </strong> </h4>
@@ -343,7 +307,8 @@
         </div>
     </div>
 
-    <!-- Electronics -->
+    
+    <!-- ELECTRONICS SECTION - To display different Electronic items available on the website. -->
     <div class="card">
         <div class="section-heading">
             <div class="section-heading-left">
@@ -362,69 +327,52 @@
                 <h5> Upto 30% off </h5>
                 <h6> <i class="fas fa-rupee-sign"></i>47900  <del>50000</del> </h6>
             </div>
+            
             <div class="product-column column-electronics">
                 <img src="images/Electronics/boAt_Rockerz_400.jpeg" alt="Headphones">
                 <h4> <strong> boAt Rockerz 400 Bluetooth Headset </strong> </h4>
                 <h5> Min 30% off </h5>
                 <h6> Starts from <i class="fas fa-rupee-sign"></i>1499 </h6>
             </div>
-<!--            <div class="product-column column-electronics">-->
-<!--                <img src="images/Electronics/Boat_Speaker.jpeg" alt="Speaker">-->
-<!--                <h3> <strong> boAt Aavante Bar 1550 120 W Bluetooth Soundbar </strong> </h3>-->
-<!--                <h4> Upto 15% off </h4>-->
-<!--                <h6> <i class="fas fa-rupee-sign"></i>7999 </h6>-->
-<!--            </div>-->
-<!--            <div class="product-column column-electronics">-->
-<!--                <img src="images/Electronics/Canon_Camera.jpeg" alt="Camera">-->
-<!--                <h3> <strong> Canon EOS 1500D DSLR Camera Body+ 18-55 mm IS II Lens (Black) </strong> </h3>-->
-<!--                <h4> Upto 5% off </h4>-->
-<!--                <h6> Explore Now! </h6>-->
-<!--            </div>-->
+            
             <div class="product-column column-electronics">
                 <img src="images/Electronics/Mi_3i_Power_Bank.jpeg" alt="PowerBank">
                 <h4> <strong> Mi 3i 20000 mAh Power Bank </strong></h4>
                 <h5> Under <i class="fas fa-rupee-sign"></i>1999 </h5>
                 <h6> Shop Now! </h6>
             </div>
+            
             <div class="product-column column-electronics">
                 <img src="images/Electronics/Omron_Bp_Monitor.jpeg" alt="BpMonitor">
                 <h4> <strong> OMRON HEM-7124 Bp Monitor (White) </strong> </h4>
                 <h5> Upto 25% off </h5>
                 <h6> Explore Now! </h6>
             </div>
-<!--            <div class="product-column column-electronics">-->
-<!--                <img src="images/Electronics/Realme_C21Y.jpeg" alt="RealmeMobile">-->
-<!--                <h3> Realme C21Y (Cross Black, 32 GB) (3 GB RAM) </h3>-->
-<!--                <h4> Upto 20% off</h4>-->
-<!--                <h6> Starting from <i class="fas fa-rupee-sign"></i>9499 </h6>-->
-<!--            </div>-->
+            
             <div class="product-column column-electronics">
                 <img src="images/Electronics/Samsung_M32.jpeg" alt="SamsungMobile">
                 <h4> <strong> SAMSUNG Galaxy M32 (Light Blue, 64 GB) </strong> </h4>
                 <h5> Min 10% off </h5>
                 <h6> Starting from <i class="fas fa-rupee-sign"></i>15538</h6>
             </div>
+            
             <div class="product-column column-electronics">
                 <img src="images/Electronics/Seagate_Harddisk.jpeg" alt="HardDisk">
                 <h4> <strong> Seagate Portable 1 TB External Hard Disk </strong> </h4>
                 <h5> Min 20%-40% off </h5>
                 <h6> Shop Now from <i class="fas fa-rupee-sign"></i>3799 </h6>
             </div>
-<!--            <div class="product-column column-electronics">-->
-<!--                <img src="images/Electronics/Zebronics_Bluetooth_Speaker.jpeg" alt="BluetoothSpeaker">-->
-<!--                <h3> <strong> ZEBRONICS Zeb-Vita Plus 16 W Bluetooth Laptop/Desktop Speaker (Grey, Stereo Channel) </strong> </h3>-->
-<!--                <h4> Min 60% off </h4>-->
-<!--                <h6> Explore Now! </h6>-->
-<!--            </div>-->
         </div>
     </div>
 </section>
 <!-- MAIN SECTION ENDS -->
 
-
-<!-- FOOTER STARTS -->
-<footer>
     
+
+<!-- FOOTER SECTION STARTS - This section is used to create the footer of the webpage which displays various social media handles, 
+     mail address, flipkart's office address and different payment methods supported. -->
+
+<footer>
     <div class="footer-row">
         <div class="footer-col-1">
             <div class="footer-heading">
