@@ -370,14 +370,14 @@ header{
     height: 150px;
 }
 
-/* CLOTHING COLUMN - The first card in the main section that
+/* CLOTHING COLUMN - The third card in the main section that
    offers various discounted deals on Clothing.*/
 .column-clothing img{
     width: 125px;
     height: 150px;
 }
 
-/* ELECTRONICS COLUMN - The first card in the main section that
+/* ELECTRONICS COLUMN - The fourth card in the main section that
    offers various discounted deals on Electronics.*/
 .column-electronics img{
     width: 100px;
